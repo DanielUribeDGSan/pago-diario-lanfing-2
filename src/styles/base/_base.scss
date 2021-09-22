@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+}
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: $black;
+	text-align: left;
+	background-color: $background;
+}
+
+h1,
+.h1 {
+	font-size: 2.5rem;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.pt-content {
+	padding-top: 60px;
+}
+
+.pb-content {
+	padding-bottom: 60px;
+}
+
+.mt-content {
+	margin-top: 60px;
+
+	@media only screen and (max-width: 765px) {
+		margin-top: 30px;
+	}
+}
+
+.mb-content {
+	margin-bottom: 60px;
+
+	@media only screen and (max-width: 765px) {
+		margin-bottom: 30px;
+	}
+}
+
+.fw-100 {
+	font-weight: 100;
+}
+
+.fw-200 {
+	font-weight: 200;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+// Preload
